@@ -23,6 +23,11 @@ namespace IndicesRanges
             string[] quickBrownFox = words[1..4];
             foreach(var word in quickBrownFox)
                 Console.WriteLine($"< {word} >");
+
+            Console.WriteLine();
+            string[] lazyDog = words[^2..^0];
+            foreach(var word in lazyDog)
+                Console.WriteLine($"< {word} >");
         }
     }
 }
