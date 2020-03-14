@@ -42,6 +42,13 @@ namespace IndicesRanges
             Console.WriteLine();
             foreach(var word in lastPhrase)
                 Console.WriteLine($"< {word} >");
+
+            Console.WriteLine();
+            Index the = ^3;
+            Console.WriteLine(words[the]);
+            Range phrase = 6..;
+            foreach(var word in words[phrase])
+                Console.WriteLine($"< {word} >");
         }
     }
 }
