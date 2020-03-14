@@ -20,6 +20,9 @@ namespace IndicesRanges
             };
 
             Console.WriteLine(words[^1]);
+            string[] quickBrownFox = words[1..4];
+            foreach(var word in quickBrownFox)
+                Console.WriteLine($"< {word} >");
         }
     }
 }
