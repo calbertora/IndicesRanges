@@ -28,6 +28,20 @@ namespace IndicesRanges
             string[] lazyDog = words[^2..^0];
             foreach(var word in lazyDog)
                 Console.WriteLine($"< {word} >");
+
+            string[] allWords = words[..];
+            string[] firsPhrase = words[..4];
+            string[] lastPhrase = words[6..];
+            
+            Console.WriteLine();
+            foreach(var word in allWords)
+                Console.WriteLine($"< {word} >");
+            Console.WriteLine();
+            foreach(var word in firsPhrase)
+                Console.WriteLine($"< {word} >");
+            Console.WriteLine();
+            foreach(var word in lastPhrase)
+                Console.WriteLine($"< {word} >");
         }
     }
 }
