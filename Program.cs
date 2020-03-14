@@ -6,7 +6,20 @@ namespace IndicesRanges
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string[] words = new String[]
+            {
+                "the",
+                "quick",
+                "brown",
+                "fox",
+                "jumped",
+                "over",
+                "the",
+                "lazy",
+                "dog"
+            };
+
+            Console.WriteLine(words[^1]);
         }
     }
 }
